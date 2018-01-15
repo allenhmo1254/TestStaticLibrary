@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0AC73937200C977B005B1FB9 /* TestStaticLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC73936200C977B005B1FB9 /* TestStaticLibrary.m */; };
 		0AC73938200C977B005B1FB9 /* TestStaticLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0AC73935200C977B005B1FB9 /* TestStaticLibrary.h */; };
-		0AC73940200C9796005B1FB9 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC7393F200C9796005B1FB9 /* TestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +28,6 @@
 		0AC73932200C977B005B1FB9 /* libTestStaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestStaticLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC73935200C977B005B1FB9 /* TestStaticLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestStaticLibrary.h; sourceTree = "<group>"; };
 		0AC73936200C977B005B1FB9 /* TestStaticLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestStaticLibrary.m; sourceTree = "<group>"; };
-		0AC7393E200C9796005B1FB9 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
-		0AC7393F200C9796005B1FB9 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +62,6 @@
 			children = (
 				0AC73935200C977B005B1FB9 /* TestStaticLibrary.h */,
 				0AC73936200C977B005B1FB9 /* TestStaticLibrary.m */,
-				0AC7393E200C9796005B1FB9 /* TestView.h */,
-				0AC7393F200C9796005B1FB9 /* TestView.m */,
 			);
 			path = TestStaticLibrary;
 			sourceTree = "<group>";
@@ -128,7 +123,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AC73940200C9796005B1FB9 /* TestView.m in Sources */,
 				0AC73937200C977B005B1FB9 /* TestStaticLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
